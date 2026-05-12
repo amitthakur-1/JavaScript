@@ -1,0 +1,65 @@
+<!-- create a button with text click -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 1</title>
+    <style>
+      .Button {
+        margin: 0;
+        padding: 0;
+        height: 35px;
+        width: 50px;
+      }
+      #Button-1 {
+        background-color: blueviolet;
+
+        border-radius: 3px;
+      }
+      #Button-2 {
+        background-color: green;
+        border-radius: 3px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <button>click</button><br /><br />
+      <button id="Button-1" class="Button">Button 1</button><br /><br />
+      <button id="Button-2" class="Button">Button 2</button>
+      <hr />
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim quos sed
+        autem hic praesentium sunt iure ipsa esse repellat molestias voluptas
+        eius magni fuga, placeat omnis nobis suscipit distinctio consequuntur?
+      </p>
+      <script src="/Scripts/index.js">
+        alert("Welcome user!");
+      </script>
+    </main>
+  </body>
+  <hr />
+  <footer>
+    <footer>
+      <button
+        onclick="alert('Item Added')"
+        style="
+          border: none;
+          background-color: rgb(154, 223, 161);
+          border-radius: 18px;
+        "
+      >
+        Add to Bag
+      </button>
+
+      <button
+        onclick="alert('Item Added to Wishlist')"
+        style="border-radius: 7px; width: 105px"
+      >
+        💗 WISHLIST
+      </button>
+    </footer>
+  </footer>
+</html>

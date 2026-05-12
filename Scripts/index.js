@@ -1,0 +1,1 @@
+console.log("this is coming from the javascript page to thr html page via link")
